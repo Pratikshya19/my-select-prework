@@ -4,7 +4,7 @@ def my_select(collection)
   if yield(array[i])
     select <<   array[i]
   end
-  i +=  
+  i += 1 
 end 
 select 
  
